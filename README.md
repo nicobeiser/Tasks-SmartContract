@@ -3,16 +3,27 @@ My first Solidity smart contract on Sepolia: a per-user To-Do List with prioriti
 
 
 Steps to try this Smart Contract out:
+
 1- Create a .env File at the level of the abi, ejercicio4.py and ejercicio4.sol
+
 2- Fill it with:
+
 RPC_HTTP=https://sepolia.infura.io/v3/Your-Proyect-Id
+
 RPC_WS=wss://sepolia.infura.io/ws/v3/Your-Proyect-Id
+
 CONTRACT_ADDRESS=0x107df51f2ea5ceFa29a3affB12B392E02E5982C9
+
 ACCOUNT_ADDRESS=Your-public-address
+
 PRIVATE_KEY=Your-private-key
+
 CHAIN_ID=11155111
+
 3-Modify test_add_task, test_update_task(), test_delete_task() and test_pagination_filters_offset() as you want
+
 4-Uncomment lines of main()
+
 5-Run ejercicio4.py
 
 
